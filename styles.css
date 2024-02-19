@@ -1,11 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ 
  *{
     padding: 0;
     margin: 0;
 }
 
 body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+font-family: "Poppins", sans-serif ;}
 html{
     scroll-behavior: smooth;
 }
@@ -141,9 +144,8 @@ opacity: 0;
 section{
     padding-top: 4vh;
     height: 96vh;
-    margin: 0, 10rem;
+    margin: 0 10rem;
     box-sizing: border-box;
-    min-height: -moz-fit-content;
     min-height: fit-content;
 }
 
@@ -163,7 +165,7 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-    margin: auto, 0;
+    margin: auto 0;
 }
 
 .section__text{
@@ -172,17 +174,15 @@ section{
 }
 
 .section__text p {
-    font-weight: 400;
-
+    font-weight: 600;
 }
 
 .section__text__p1{
     text-align: center;
-
 }
 
 .section__text__p2{
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 
@@ -191,7 +191,7 @@ section{
     text-align: center;
 }
 
-#socail-container{
+#socails-container{
     display:flex;
     justify-content: center;
     margin-top: 1rem;
@@ -216,7 +216,7 @@ section{
 .btn{
   cursor: pointer;
   font-weight: 600;
-  transition: all 600ms ease;
+  transition: all 300ms ease;
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
@@ -230,19 +230,16 @@ section{
 .btn-color1:hover,
 .btn-color2:hover{
     cursor: pointer;
-
 }
 
 .btn-color1,
 .btn-color2:hover{
     background: rgb(53,53,53);
     color: white;
-
 }
 
 .btn-color1:hover{
     background: rgb(0,0,0,);
-
 }
 
 .btn-color2{
@@ -259,7 +256,7 @@ section{
 }
 
 /*About Section*/
-#abou{
+#about{
     position: relative;
 }
 
@@ -274,7 +271,8 @@ section{
     flex-direction: column;
 }
 
-.about-containers, .about-details-container{
+.about-containers, 
+.about-details-container{
     display: flex;
 }
 
@@ -282,7 +280,7 @@ section{
     border-radius: 2rem;
 }
 
-.icon-arrow{
+.arrow{
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
@@ -303,9 +301,10 @@ section{
     height: 80%;
 }
 
-.section__pic_container{
+.section__pic-container{
+    display: flex;
     height: 400px;
-    width: 400px;
+    width: 600px;
     margin: auto 0;
 }
 
@@ -348,3 +347,29 @@ article .icon{
     cursor: default;
 }
 
+/*projects section*/
+
+#projects{
+    position: relative;
+}
+
+.color-container{
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250) ;
+}
+
+.project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.title{
+    margin: 1rem;
+    color: black;
+}
+
+.btn{
+    color: black;
+    border-color: rgb(163,163,163);
+}
