@@ -11,10 +11,10 @@
     <nav id="desktop-nav">
         <div class="logo">Peter Geswint</div>
         <ul class="nav-links">
-            <li><a href="about">About</a></li>
-            <li><a href="experience">Experience</a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="./#about">About</a></li>
+            <li><a href="./#experience">Experience</a></li>
+            <li><a href="./#projects">Projects</a></li>
+            <li><a href="./#contact">Contact</a></li>
         </ul>
     </nav>
     <nav id="hamburger-nav">
@@ -37,7 +37,7 @@
     </nav>
     <section id="profile">
         <div class="section__pic_container">
-            <img src="C:\Responsive Portfolio\croped_edited.jpg" alt="peter geswint profile picture">
+            <img src="./Assets/profile-pic.png" alt="peter geswint profile picture">
 
         </div>
         <div class="section__text">
@@ -45,16 +45,12 @@
             <h1 class="title">Peter Geswint</h1>
             <p class="section__text__p2">Software Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color2" onclick="window.open('')">Download CV</button>
-            
-            
+                <button class="btn btn-color2" onclick="window.open('./Assets/Peter Geswint - Resume.docx')">Download CV</button>
                 <button class="btn btn-color1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
-                <img src="./assets/github.svg" alt="My github profile" class="icon" onclick="location.href='https://github.com'">
-            
-            
                 <img src="./assets/linkedin.svg" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.com'">
+                <img src="./assets/github.svg" alt="My github profile" class="icon" onclick="location.href='https://github.com'">
             </div>
         </div>
     </section>
@@ -62,20 +58,20 @@
         <p class="section__text__p1">Get to know more</p>
         <h1 class="title">About me</h1>
         <div class="section-container">
-            <div class="section__pic_container">
-                <img src="./assets/profile-picture" alt="Profile picture" class="about-picture"/>
+            <div class="section__pic-container">
+                <img src="./Assets/croped_edited.jpg" alt="Profile picture" class="about-pic"/>
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-containers">
-                        <img src="./assets/experience.png" alt="experience-icon" />
+                        <img src="./Assets/experience.png" alt="experience-icon" class="icon" />
                         <h3>Experience</h3>
                         <p>2 years <br/>Front-End Developer</p>
                     </div>
                     <div class="details-containers">
-                        <img src="./assets/experience.png" alt="education-icon" />
+                        <img src="./Assets/education.png" alt="education-icon" class="icon"/>
                         <h3>Education</h3>
-                        <p>Diploma in Software Engineering <br/>Coursera Certificate for UX/UI Design</p>
+                        <p>Diploma in Software Engineering <br/>Coursera Certificate for UX Design</p>
                     </div>
                 </div>
                 <div class="text-container">
@@ -83,7 +79,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow-down.svg" alt="arrow icon" class="icon-arrow" onclick="location.href='./experience'"/>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
@@ -94,14 +90,14 @@
     <h2 class="experience-sub-title">Software Development</h2>
     <div class="article-container">
         <article>
-            <img src="./assets/badge-check.svg" alt="Experience-icon" class="icon"/>
+            <img src="./Assets/badge-check.svg" alt="Experience-icon" class="icon"/>
             <div>
                 <h3>HTML</h3>
                 <p>Experienced</p>
             </div>
         </article>
         <article>
-            <img src="./assets/badge-check.svg" alt="Experience-icon" class="icon"/>
+            <img src="./Assets/badge-check.svg" alt="Experience-icon" class="icon"/>
             <div>
                 <h3>CSS</h3>
                 <p>Experienced</p>
@@ -111,7 +107,7 @@
             <img src="./assets/badge-check.svg" alt="Experience-icon" class="icon"/>
             <div>
                 <h3>SASS</h3>
-                <p>INtermediate</p>
+                <p>Intermediate</p>
             </div>
         </article>
         <article>
@@ -124,8 +120,8 @@
         <article>
             <img src="./assets/badge-check.svg" alt="Experience-icon" class="icon"/>
             <div>
-                <h3>UX/UI</h3>
-                <p>Basic</p>
+                <h3>Figma</h3>
+                <p>Intermediate</p>
             </div>
         </article>
     </div>
@@ -158,7 +154,57 @@
 </div>
             </div>
         </div>
-        <img src="./assets/arrow-down.svg" alt="arrow icon" class="icon-arrow" onclick="location.href='./experience'"/>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse my recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+           <div class="about-containers">
+            <div class="details-containers color-container">
+                 <div class="article-container">
+                    <img src="Assets/project-1.png" alt="Project-1" class="project-img"/>
+
+                 </div>
+                 <h3 class="title">Project One</h3>
+                 <div class="btn-container">
+                    <button class="btn btn-color2" onclick="location.href='https://github.com'">Git hub</button>
+                 </div>
+                 <div class="btn-container">
+                    <button class="btn btn-color1" onclick="location.href='https://github.com'">Live Demo</button>
+                 </div>
+            </div>
+            <div class="details-containers color-container">
+                 <div class="article-container">
+                    <img src="Assets/project-1.png" alt="Project-2" class="project-img"/>
+
+                 </div>
+                 <h3 class="title">Project Two</h3>
+                 <div class="btn-container">
+                    <button class="btn btn-color2" onclick="location.href='https://github.com'">Git hub</button>
+                 </div>
+                 <div class="btn-container">
+                    <button class="btn btn-color1" onclick="location.href='https://github.com'">Live Demo</button>
+                 </div>
+            </div>
+            <div class="details-containers color-container">
+                 <div class="article-container">
+                    <img src="Assets/project-1.png" alt="Project-3" class="project-img"/>
+
+                 </div>
+                 <h3 class="title">Project Three</h3>
+                 <div class="btn-container">
+                    <button class="btn btn-color2" onclick="location.href='https://github.com'">Git hub</button>
+                 </div>
+                 <div class="btn-container">
+                    <button class="btn btn-color1" onclick="location.href='https://github.com'">Live Demo</button>
+                 </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+
     </section>
   <script src="script.js"></script>  
 </body>
